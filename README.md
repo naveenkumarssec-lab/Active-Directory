@@ -99,11 +99,28 @@ Task 3 Disable/enable the client account.
 
 #
 # File Sharing and Permissions.
-
+Creating security group.
 - Step 1: Open Active directory users and computers
 - Step 2: Select your domain right-click -> new -> group.
 - Step 3: Enter the group details, group name "ITSupport", click ok.
 
+Adding User in security group.
+
+- Step 1: Open Active directory user and computers.
+- Step 2: Open the ITSupport group.
+- Step 3: Select members tab and add user "kevin" -> check name and click ok.
+
+Creating Folder and setting permissions.
+
+- Step 1: Create a folder name "Asset" in windows server.
+- Step 2: Go to properties -> sharing -> Advanced sharing -> tick share this folder.
+- Step 3: Click permission add group "ITSupport"
+- Step 4: Allow change and read, click ok.
+
+Testing from Client "Kevin".
+
+- Step 1: Go to file explorer enter \\192.168.1.10\ITSupport
+- Step 2: Try to change in the folder.
 
 
 
