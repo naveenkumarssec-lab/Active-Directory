@@ -1,11 +1,15 @@
 # Active-Directory
-# Installing virtual box and Windows server.
+# Installing Windows server and client windows OS on virtual box.
 
-- Install virtual box and creating new section for setup windows server software.
+- Install window os and creating new section for setup windows server software on virtual box.
 - Get windows server software from official website and assigning resource to windows server in virtual box.
-- After installing and creating passwords we luanch in server dashboard where we work active directory.
+- After installing and creating passwords we launch in server dashboard where we work active directory.
 
 # Screenshots
+
+![](ADimg/win101.png)
+
+#
 
 # Installing Active Directory Domain Service.
 
@@ -19,6 +23,10 @@
 
 # Screenshots
 
+![](ADimg/AD1.png)
+
+#
+
 # Creating user account in active directory domain service.
 
 - Step 1: Open tools option, click Active directory user and computers.
@@ -27,6 +35,9 @@
 - Final step : Enter guest name "kevin" create password and save. check guest id was created.
 - Screenshots
 
+![](ADimg/AD2.png)
+
+#
 
 # Joining Windows client to Domain.
 
@@ -104,11 +115,23 @@ Creating security group.
 - Step 2: Select your domain right-click -> new -> group.
 - Step 3: Enter the group details, group name "ITSupport", click ok.
 
+#
+
+![](ADimg/group.png)
+
+#
+
 Adding User in security group.
 
 - Step 1: Open Active directory user and computers.
 - Step 2: Open the ITSupport group.
 - Step 3: Select members tab and add user "kevin" -> check name and click ok.
+
+#
+
+![](ADimg/group3.png)
+
+#
 
 Creating Folder and setting permissions.
 
@@ -117,12 +140,24 @@ Creating Folder and setting permissions.
 - Step 3: Click permission add group "ITSupport"
 - Step 4: Allow change and read, click ok.
 
+#
+
+![](ADimg/group4.png)
+
+#
+
+![](ADimg/group5.png)
+
+#
+
 Testing from Client "Kevin".
 
 - Step 1: Go to file explorer enter \\192.168.1.10\ITSupport
 - Step 2: Try to change in the folder.
 
+![](ADimg/group6.png)
 
+#
 
 
 
