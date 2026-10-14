@@ -36,6 +36,7 @@ Configure DNS on the client:
 - Click change adapter settings
 - Right-click your active network adapter and select properties.
 - Double-click Internet protocol version 4.
+![](ADimg/step1)
 - Set DNS server as windows server IP Address.
 - Click ok.
 
