@@ -35,7 +35,7 @@
 - Final step : Enter guest name "kevin" create password and save. check guest id was created.
 - Screenshots
 
-![](ADimg/AD2.png)
+![](ADimg/user3.png)
 
 #
 
