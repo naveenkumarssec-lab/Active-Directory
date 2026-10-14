@@ -19,5 +19,13 @@
 
 # Screenshots
 
+# Creating user account in active directory domain service.
+
+- Step 1: Open tools option, click Active directory user and computers.
+- Step 2: Click your AD id "navin.local".
+- Step 3: At bottom right click on user -> new -> user.
+- Final step : Enter guest name "kevin" create password and save. check guest id was created.
+- Screenshots
+  
 
 
