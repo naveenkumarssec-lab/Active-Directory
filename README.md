@@ -68,10 +68,42 @@ Configure DNS on the client:
 
 # User Managements
 
-Task 1 Create a user
+Task 1 Create a user.
 
 - Right-click Users -> new -> User
 - Enter your name and password and save.
+
+![](ADimg/user3.png)
+
+#
+
+Task 2 Reset Password.
+
+- Right-click kevin -> reset password.
+- Set a temporary password and when appropriate, require the user to change it at next logon.
+
+![](ADimg/reset.png)
+
+![](ADimg/reset1.png)
+
+#
+
+Task 3 Disable/enable the client account.
+
+- Right-click your test account -> Disable accout.
+- To restore access right-click it again and change into enable.
+
+![](ADimg/disable.png)
+#
+![](ADimg/disable1.png)
+
+#
+# File Sharing and Permissions.
+
+- Step 1: Open Active directory users and computers
+- Step 2: Select your domain right-click -> new -> group.
+- Step 3: Enter the group details, group name "ITSupport", click ok.
+
 
 
 
