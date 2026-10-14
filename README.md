@@ -159,6 +159,42 @@ Testing from Client "Kevin".
 
 #
 
+# Group Policy Object.
+
+Aim : Restricting Control panel service to "kevin" user in the domain.
+
+Create an Organization unit.
+
+- Step 1: Open server manager -> Tools -> Active directory users and computers.
+- Step 2: Right-click navin.local -> new -> organization unit.
+- Step 3: enter name "TestUser", click ok.
+
+Move Kevin user inside the OU.
+
+- Step 1: Find kevin user in Active directory.
+- Step 2: Right-click kevin -> move.
+- Step 3: Select TestUser. click ok.
+
+Link a GPO
+
+- Step 1: Open Group policy object in a tool.
+- Step 2: Right-click TestUser -> select "create a gpo in this domain and link it here".
+- Step 3: Name it Test-ControlPanel-Restric.
+
+Configure the policy 
+
+- Step 1: Right click Test-ControlPanel-Restric.
+- Step 2: select User configuration -> policies -> administrative templates -> Control panel.
+- Step 3: Open Prohibit access to control panel and pc setting -> select enable.
+- Step 4: Click apply -> ok.
+
+Testing in kevin user.
+
+- Step 1: Open CMD enter gpresult /force
+- Step 2: Try to open control panel it can't accessible.
+- Step 3: Undo the restriction, Edit Test-ControlPanel-Restriciton -> not configured -> apply -> ok.
+
+# THANK YOU
 
 
 
