@@ -36,9 +36,35 @@ Configure DNS on the client:
 - Click change adapter settings
 - Right-click your active network adapter and select properties.
 - Double-click Internet protocol version 4.
-![](ADimg/step1)
+
+![](ADimg/step1.png)
 - Set DNS server as windows server IP Address.
+
+![](ADimg/step2.png)
 - Click ok.
+
+# Join the Domain
+
+- Press windows + r
+- Type sysdm.cpl and enter.
+- Open the computer name tab.
+- Clink change.
+
+- ![](ADimg/join1.png)
+- 
+- Select Domain
+- Enter domain name "navin.local"
+- Click ok
+- Enter username "kevin" and password where we created before.
+
+![](ADimg/win103.png)
+
+# Log in using account
+
+- After restart.
+- Use the user name (kevin) and passwored to login.
+
+![](ADimg/login.png)
 
 
 
