@@ -66,5 +66,15 @@ Configure DNS on the client:
 
 ![](ADimg/login.png)
 
+# User Managements
+
+Task 1 Create a user
+
+- Right-click Users -> new -> User
+- Enter your name and password and save.
+
+
+
+
 
 
