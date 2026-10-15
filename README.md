@@ -169,6 +169,10 @@ Create an Organization unit.
 - Step 2: Right-click navin.local -> new -> organization unit.
 - Step 3: enter name "TestUser", click ok.
 
+![](ADimg/gp1.png)
+
+#
+
 Move Kevin user inside the OU.
 
 - Step 1: Find kevin user in Active directory.
@@ -181,6 +185,10 @@ Link a GPO
 - Step 2: Right-click TestUser -> select "create a gpo in this domain and link it here".
 - Step 3: Name it Test-ControlPanel-Restric.
 
+![](ADimg/gp2.png)
+
+#
+
 Configure the policy 
 
 - Step 1: Right click Test-ControlPanel-Restric.
@@ -188,11 +196,29 @@ Configure the policy
 - Step 3: Open Prohibit access to control panel and pc setting -> select enable.
 - Step 4: Click apply -> ok.
 
+![](ADimg/gp3.png)
+
+#
+
+![](ADimg/gp4.png)
+
+#
+
+
 Testing in kevin user.
 
 - Step 1: Open CMD enter gpresult /force
 - Step 2: Try to open control panel it can't accessible.
 - Step 3: Undo the restriction, Edit Test-ControlPanel-Restriciton -> not configured -> apply -> ok.
+
+![](ADimg/gp5.png)
+
+#
+
+![](ADimg/gp6.png)
+
+#
+
 
 # THANK YOU
 
